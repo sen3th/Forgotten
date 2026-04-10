@@ -1,0 +1,23 @@
+body{
+    background-color: rgb(239, 232, 205);
+    background-image: url(/assets/background.jpg);
+    background-size:cover;
+}
+
+.folder{
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    width: 40%;
+}
+
+.folder-container{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.folder-container:hover{
+    transform: scale(1.01);
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
