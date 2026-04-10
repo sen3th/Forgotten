@@ -3,7 +3,13 @@ body{
     min-height: 100vh;
     font-family: Arial, sans-serif;
     color: #544b2700;  
-    background: radial-gradient(circle at 15% 10%, gray, transparent 35%), linear-gradient(#332814, #332814); 
+    background: radial-gradient(circle at 15% 10%, gray, transparent 35%), linear-gradient(#e7c381, #dca238);
+}
+
+h1{
+    text-align: center;
+    color:beige;
+    margin:0; font-family:'Courier New', Courier, monospace;
 }
 
 .folder-image{
@@ -31,4 +37,10 @@ body{
     50%{
         transform:translateY(-5px);
     }
+}
+
+.page {
+    width: min(1100px, 95vw);
+    margin: 0 auto; 
+    padding:24px 12px 40px;
 }
