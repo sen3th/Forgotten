@@ -4,20 +4,29 @@ body{
     background-size:cover;
 }
 
-.folder{
-    height: auto;
+.folder-image{
+    width: 100%;
     display: block;
+    filter: drop-shadow(0 18px 20px rgba(0, 0, 0, 0.45));
+}
+
+.folder-wrap{
+    border: none;
+    background: transparent;
+    display: block;
+    width: min(530px, 80vw);
     margin: 0 auto;
-    width: 40%;
-}
-
-.folder-container{
-    text-align: center;
-    margin-top: 50px;
-}
-
-.folder-container:hover{
-    transform: scale(1.01);
-    transition: transform 0.3s ease;
+    position: relative;
     cursor: pointer;
+    animation: pulse 2.8s infinite;
+    transition: transform 0.2s;
+}
+
+@keyframes pulse{
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50%{
+        transform:translateY(-5px);
+    }
 }
