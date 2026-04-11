@@ -147,3 +147,22 @@ h1{
         transform: translateY(0);
     }
 }
+
+.photos{
+    display: flex;
+    flex-wrap: wrap;
+    gap:10px;
+    margin: 12px 0;
+}
+
+.photo{
+    width: min(170px, 100%);
+    aspect-ratio: 4/5;
+    border: 2px solid #725d40;
+    border-radius: 8px;
+    background: linear-gradient(45deg, #967f60, #695134);
+    color: rgb(239, 215, 170);
+    font-family: 'Courier New', Courier, monospace;
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
