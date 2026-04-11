@@ -2,7 +2,24 @@ const folderButton = document.getElementById("folderButton");
 const caseBoard = document.getElementById("caseBoard");
 const tabs = document.querySelectorAll(".tab");
 const papers = document.querySelectorAll(".paper");
+const photos = document.querySelectorAll(".photo");
+const photoText = document.getElementById("photoText");
 
+const photoNotes = {
+    1: "random text: random ahhh description"
+}
+
+photos.forEach(function (photo){
+    photo.addEventListener("click", function(){
+        const selectedPhoto = photo.dataset.photo;
+        photos.forEach(function(item){
+            item.classList.remove("active");
+        })
+
+        photo.classList.add("active");
+        photoText.textContent = photoNotes[selectedPhoto];
+    })
+})
 
 folderButton.addEventListener("click", function(){
     caseBoard.classList.toggle("hidden");
