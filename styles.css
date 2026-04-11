@@ -91,3 +91,17 @@ h1{
     font-family:'Courier New', Courier, monospace;
     color: rgb(85, 85, 64);
 }
+
+.tab{
+    width: 100px;
+    margin: 6px 0;
+    padding: 10px;
+    border: 1px solid rgba(149, 117, 85, 0.874);
+    border-radius: 7px;
+    background: rgb(232, 197, 157);
+    text-align: left;
+    cursor: pointer;
+}
+.tab.active{
+    background: #c4ab79;
+}
