@@ -85,3 +85,9 @@ h1{
     box-shadow: 0 12px 26px rgb(14, 14, 14);
     padding: 12px;
 }
+
+.left-panel h2{
+    margin: 4px 0 10px;
+    font-family:'Courier New', Courier, monospace;
+    color: rgb(85, 85, 64);
+}
