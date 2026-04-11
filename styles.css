@@ -49,3 +49,14 @@ h1{
     margin: 0 auto; 
     padding:24px 12px 40px;
 }
+
+.folder-label{
+    position: absolute;
+    right:10%;
+    bottom: 18%;
+    background:beige;
+    border: 1px rgba(103, 39, 39, 0.799);
+    padding: 6px 10px;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 15px;
+}
