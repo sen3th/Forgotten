@@ -180,3 +180,9 @@ h1{
 .photos-text{
     font-family: 'Courier New', Courier, monospace;
 }
+
+.paper-list p{
+    border-left: 4px solid rgb(145, 115, 53);
+    background:rgb(202, 179, 126);
+    padding: 8px;
+}
