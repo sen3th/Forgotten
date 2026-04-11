@@ -118,3 +118,21 @@ h1{
     padding: 14px;
     min-height: 420px;
 }
+
+.paper{
+    display: none;
+}
+
+.paper.show{
+    display: block;
+    animation: paperIn 0.35s ease;
+}
+
+.stamp{
+    display: inline-block;
+    margin-bottom: 8px;
+    padding: 3px 8px;
+    border: 2px solid brown;
+    color: brown;
+    font-family:'Courier New', Courier, monospace;
+}
