@@ -64,3 +64,9 @@ h1{
     font-family:'Courier New', Courier, monospace;
     font-size: 15px;
 }
+
+.subtitle{
+    text-align: center;
+    color: beige;
+    margin:10px 0 24px;
+}
