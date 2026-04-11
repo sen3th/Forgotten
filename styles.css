@@ -166,3 +166,17 @@ h1{
     cursor: pointer;
     transition: transform 0.2s, box-shadow 0.2s;
 }
+
+.photo:hover{
+    transform: translateY(-4px);
+    box-shadow: 0 10px 14px rgba(0, 0, 0, 0.3);
+}
+
+.photo.active{
+    transform:scale(1.04);
+    box-shadow: 0, 14px 20px rgba(0, 0, 0, 0.4);
+}
+
+.photos-text{
+    font-family: 'Courier New', Courier, monospace;
+}
