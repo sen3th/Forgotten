@@ -197,3 +197,9 @@ h1{
     right:8%;
     bottom: 14%;}
 }
+
+hr{
+    border: none;
+    border-top: 1px dashed rgba(81, 34, 34, 0.799);
+    margin: 16px 0;
+}
