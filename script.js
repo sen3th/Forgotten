@@ -6,8 +6,9 @@ const photos = document.querySelectorAll(".photo");
 const photoText = document.getElementById("photoText");
 
 const photoNotes = {
-    1: "Description: Unexpected encounter with the Arctic Frost. Blurry image due to its rapid movement and its camouflage."
-}
+    1: "Description: Unexpected encounter with the Arctic Frost. Blurry image due to its rapid movement and its camouflage.",
+    2: "Description: Close-up of the owl's wing."
+};
 
 photos.forEach(function (photo){
     photo.addEventListener("click", function(){
