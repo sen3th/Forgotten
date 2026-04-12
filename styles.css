@@ -208,3 +208,14 @@ hr{
     background: rgba(149, 117, 85, 0.874);
     color: white;
 }
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+td, th{
+    border: 1px solid rgba(149, 117, 85, 0.874);
+    padding: 8px;
+    text-align: left;
+}
