@@ -6,7 +6,7 @@ const photos = document.querySelectorAll(".photo");
 const photoText = document.getElementById("photoText");
 
 const photoNotes = {
-    1: "random text: random ahhh description"
+    1: "Description: Unexpected encounter with the Arctic Frost. Blurry image due to its rapid movement and its camouflage."
 }
 
 photos.forEach(function (photo){
