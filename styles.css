@@ -7,7 +7,7 @@ body{
     min-height: 100vh;
     font-family: Arial, sans-serif;
     color: #241a13;  
-    background: radial-gradient(circle at 15% 10%, gray, transparent 35%), linear-gradient(#a2dbf7, #4477b5);
+    background: radial-gradient(circle at 15% 10%, rgb(5, 16, 69), transparent 35%), linear-gradient(#a2dbf7, #4477b5);
 }
 
 h1{
