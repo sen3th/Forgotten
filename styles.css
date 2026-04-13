@@ -81,7 +81,7 @@ h1{
 .left-panel{
     border: 2px solid rgba(165, 104, 42, 0.874);
     border-radius: 10px;
-    background: linear-gradient(120deg, #e8ddc1, #e7ddc6);
+    background: linear-gradient(120deg, #e7ddc6, #bff5ef);
     box-shadow: 0 12px 26px rgb(14, 14, 14);
     padding: 12px;
 }
@@ -113,7 +113,7 @@ h1{
 .right-panel{
     border: 2px solid #5f4d3a;
     border-radius: 10px;
-    background: linear-gradient(120deg, #c2aa73, #d6c59f);
+    background: linear-gradient(120deg, #a2c7e7, #d6c59f);
     box-shadow: 0 12px 26px rgb(15, 15, 15);
     padding: 14px;
     min-height: 420px;
