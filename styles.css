@@ -232,3 +232,18 @@ td, th{
     border-radius: 8px;
     border: 2px solid #725d40;
 }
+
+nav{
+    display: flex;
+    justify-content: right;
+    gap: 20px;
+    padding: 12px 0;
+    margin-left: 12px;
+}
+
+.nav-link{
+    text-decoration: none;
+    color: rgb(62, 62, 51);
+    margin:0; font-family:'Courier New', Courier, monospace;
+    padding: 6px 12px;
+}
