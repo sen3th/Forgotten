@@ -8,7 +8,8 @@ const photoText = document.getElementById("photoText");
 const photoNotes = {
     1: "Unexpected encounter with the Arctic Frost. Blurry image due to its rapid movement and its camouflage.",
     2: "Close-up of the owl's wing. The colours has been inverted to make the details more visible.",
-    3: "Close up photo of the bird's claws."
+    3: "Close up photo of the bird's claws.",
+    4: "One of the best images captured of the owl. It was actively hunting and was captured on flight. The contarst has been changed to make the animal more visible."
 };
 
 photos.forEach(function (photo){
