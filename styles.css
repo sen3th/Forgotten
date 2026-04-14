@@ -280,3 +280,17 @@ footer{
     height: auto;
     width: 40%;
 }
+
+.camouflage-img{
+    display: flex;
+    gap: 12px;
+    justify-content: center;
+    margin: 16px 0;
+}
+
+.log-img-text{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(85, 85, 64);
+    margin-top: 4px;
+}
